@@ -1,0 +1,112 @@
+$bootstrap-sass-asset-helper: false !default;
+//
+// Variables
+// --------------------------------------------------
+
+//== Colors
+$base-color: #27ae60;
+
+$white: #fff;
+
+$black: #3c4e62;
+$black1:#000000;
+
+$heading-color: #2d2d2d;
+
+$descr-color: #272727;
+$descr-color2:#245870;
+$descr-color3:#f6f6f6;
+$descr-color4:#ece7d1;
+$descr-color5:#999999;
+
+$opacity-color:rgba(49,194,120,0.7);
+$opacity-color1:rgba(39,174,96, 0.7);
+$opacity-color2:rgba(0,0,0, 0.7);
+$opacity-color3:rgba(0,0,0,0.35);
+$opacity-color4: rgba(0,0,0,0.3);
+
+$title-color:#2a2a2a;
+$title-color1:#c7c5c5;
+$title-color2:#596879;
+$title-color3:#727272;
+$title-color4:#626262;
+$title-color5:#e4e4e4;
+$title-color6:#BBB;
+$title-color7:#C4C4C4;
+$title-color8:#b9b9b9;
+$title-color9:#eeeeee;
+$title-color10:#cecece;
+
+$section-bg-color: #3c4e62;
+$section-bg-color1: url("../images/counter.jpg");
+$section-bg-color2: #3c4e62;
+$section-bg-color3: url("../images/hosting1.png");
+$section-bg-color4: url("../images/price1.jpg");
+$section-bg-color5: url("../images/price-title.png");
+$section-bg-color6: #dae4f7;
+$section-bg-color7:#f0f3f8;
+$section-bg-color8:#f5f5f5;
+$section-bg-color9:#b3b6b9;
+$section-bg-color10:#f1c40f;
+$section-bg-color11:#6a7e94;
+$section-bg-color12: url("../images/other-bg.jpg");
+$section-bg-color13: url("../images/testimonial-bg.jpg");
+$section-bg-color14: url("../images/hosting1.png");
+$section-bg-color15: url("../images/slider-bg1.jpg");
+$section-bg-color16: url("../images/slider-bg2.jpg");
+$section-bg-color17: url("../images/slider-bg3.jpg");
+$section-bg-color18:#eaf4fb;
+$section-bg-color19: url("../images/price2.jpg");
+$section-bg-color20: url("../images/breadcrumb.jpg");
+$section-bg-color21:#e1faeb;
+$section-bg-color22:#242424;
+$section-bg-color23: url("../images/731.jpg");
+
+$border-color: #27ae60;
+$border-color1:#ebebeb;
+$border-color2:#63788a;
+$border-color3:#cbd0d5;
+$border-color4:#8a95a1;
+$border-color5:#b1b8c0;
+$border-color6:#86919d;
+$border-color7:#d2d2d2;
+$border-color8:#eeeeee;
+$border-color9:#0c1014;
+$border-color10:#506072;
+$border-color11:#ededed;
+$border-color12:#d9d9d9;
+
+
+//== Typography
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-family-sans-roboto: 'Roboto', sans-serif;;
+$font-size-base:          14px !default;
+
+$font-size-large:         ceil(($font-size-base * 2.9)) !default; // ~40px
+$font-size-small:         ceil(($font-size-base * 1.08)) !default; // ~15px
+
+$font-size-h1:            floor(($font-size-base * 3.5)) !default; // ~50px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.8)) !default; // ~25px
+$font-size-h4:            ceil(($font-size-base * 1.43)) !default; // ~20px
+$font-size-h5:            ceil(($font-size-base * 1.29)) !default; // ~18px
+$font-size-h6:            ceil(($font-size-base * 1.14)) !default; // ~16px
+
+
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.7 !default; // 24/15
+
+
+
+// border-radius
+$border-radius-base:        2px !default;
+$border-radius-large:       3px !default;
+$border-radius-small:       1px !default;
+
+
+//  transition
+$transition: all .5s ease-in-out;
+$transition1: all .9s ease-in-out;
+
